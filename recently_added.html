@@ -572,10 +572,10 @@
                         <td class="wrapper" style="font-family: 'Open Sans', Helvetica, Arial, sans-serif;font-size: 14px;vertical-align: top;box-sizing: border-box;padding: 5px;overflow: auto;">
                             <div class="sub-header-bar" style="margin-left: auto;margin-right: auto;font-size: 30px;text-align: center;width: 200px;border-top: 1px solid #E5A00D;margin-top: 15px;margin-bottom: 25px;"></div>
                             <div class="sub-header-title" style="margin-left: auto;margin-right: auto;font-size: 30px;text-align: center;font-weight: lighter;">
-                                <img src="${(base_url_image + 'images/libraries/movie.png') if base_url_image else 'https://tautulli.com/images/libraries/movie.png'}" class="sub-header-icon" width="30" height="30" style="border: none;-ms-interpolation-mode: bicubic;max-width: 100%;height: 30px;width: 30px;vertical-align: middle;margin-right: 5px;margin-bottom: 5px;"> Recently Added Movies
+                                <img src="${(base_url_image + 'images/libraries/movie.png') if base_url_image else 'https://tautulli.com/images/libraries/movie.png'}" class="sub-header-icon" width="30" height="30" style="border: none;-ms-interpolation-mode: bicubic;max-width: 100%;height: 30px;width: 30px;vertical-align: middle;margin-right: 5px;margin-bottom: 5px;"> Films récemment ajoutés
                             </div>
                             <div class="sub-header-count" style="margin-left: auto;margin-right: auto;font-size: 30px;text-align: center;">
-                                <span class="count" style="color: #E5A00D;">${len(recently_added['movie'])}</span> <span class="count-units" style="color: #aaaaaa;font-size: 20px;text-transform: uppercase;">movie${'s' if len(recently_added['movie']) > 1 else ''}</span>
+                                <span class="count" style="color: #E5A00D;">${len(recently_added['movie'])}</span> <span class="count-units" style="color: #aaaaaa;font-size: 20px;text-transform: uppercase;">film${'s' if len(recently_added['movie']) > 1 else ''}</span>
                             </div>
                         </td>
                     </tr>
